@@ -1,0 +1,22 @@
+/* 
+    Proyect- Delivery Store DEL RANCHO DE JUANCHO
+    TDDS - Team Developer Dynamic Solutions
+    ---------------------------------------------
+    Document - CSS Styles
+*/
+
+.lobby{
+    height: 50%;
+}
+
+.video__lobby{
+    position: relative;
+    width: 100%;
+}
+
+.text__lobby{
+    position: absolute;
+    top: 80%;
+    padding: 8%;
+    z-index: 1;
+}

@@ -1,0 +1,26 @@
+.typeProduct{
+    padding: 2rem 10rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Cont_titleTypeProduct{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ViewtypeProduct{
+    color: var(--colorPrimary);
+}
+
+.titleTypeProduct{
+    color: var(--colorBaseMedium);
+    font-size: 1.5rem;
+    font-family: var(--font-titles);
+    margin-bottom: 1rem;
+}

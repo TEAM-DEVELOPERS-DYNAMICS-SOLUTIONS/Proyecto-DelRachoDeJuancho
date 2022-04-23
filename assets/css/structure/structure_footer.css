@@ -1,0 +1,86 @@
+/* 
+    Proyect- Delivery Store DEL RANCHO DE JUANCHO
+    TDDS - Team Developer Dynamic Solutions
+    ---------------------------------------------
+    Document - CSS Styles
+*/
+
+.Cont__Footer{
+    background: url("../../img/banners/240_F_377067779_B0hy11tav2bR7fKnNObLsXueZ2G0BkcD.png");
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Cont__social{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.Cont_logoStoreFooter{
+    height: fit-content;
+}
+
+.Cont__Contact{
+    display: flex;
+    width: 60%;
+}
+
+.Cont_logoStoreFooter .logoStore__Footer{
+    width: calc(100% - 2rem);
+    padding: 2rem;
+}
+
+.Cont__socialFooter{
+    display: flex;
+    flex-direction: row;
+    padding:0 3rem;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.iconsSocial{
+    padding: auto 0;
+    width: 5%;
+}
+
+.Cont__Contact{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 3rem 3rem 0 3rem;
+}
+
+.iframe__contact{
+    margin-bottom: 2rem;
+    width: 100% ;
+}
+
+.Cont_contactUsContact, .Cont_ScheduleContact{
+    align-items: center;
+    display: flex;
+    width: 100%
+    
+}
+
+.Cont_contactUsContact .titleThird, .Cont_ScheduleContact .titleThird{
+    border-right: white solid 5px ;
+    font-size: 2rem;
+    height: 4rem;
+    line-height: 4rem;
+    width: 30%;
+}
+
+.Cont_contactUsContact .text, .Cont_ScheduleContact .text{
+    padding-left: 2rem;
+    font-size: 1rem;
+}
+
+.Cont__developers{
+    align-items: center;
+    background-color: black ;
+    display: flex;
+    height: 5vh;
+    justify-content: center;
+    margin-top: 1rem;
+    width: 100%;
+}

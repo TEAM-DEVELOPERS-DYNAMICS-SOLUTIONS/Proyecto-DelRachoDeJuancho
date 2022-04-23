@@ -1,0 +1,34 @@
+/* 
+    Proyect- Delivery Store DEL RANCHO DE JUANCHO
+    TDDS - Team Developer Dynamic Solutions
+    ---------------------------------------------
+    Document - CSS Styles
+*/
+
+.navigator__Banner{
+    background: linear-gradient(to bottom, #00000000 20% , #000000 80%);
+    display: flex;
+    width: 100%;
+    height: 40%;
+}
+
+.Cont__navigatorBanner{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Cont__navigatorBanner #linkBanner{
+    font-size: 1.2rem;
+    transition: font-size cubic-bezier(0.075, 0.82, 0.165, 1) 400ms;
+}
+
+.Cont__navigatorBanner #linkBanner:hover{
+    font-size: 1.4rem;
+    font-family: var(--font-titles);
+    text-transform: uppercase;
+    text-decoration: underline;
+    transition: font-size cubic-bezier(0.075, 0.82, 0.165, 1) 400ms;
+}

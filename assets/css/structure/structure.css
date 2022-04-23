@@ -1,0 +1,77 @@
+/* 
+    Proyect- Delivery Store DEL RANCHO DE JUANCHO
+    TDDS - Team Developer Dynamic Solutions
+    ---------------------------------------------
+    Document - CSS Styles
+*/
+
+:root {
+    /* fonts */
+    --font-titles: 'Rye', cursive;
+    --font-body: 'Cormorant Garamond', serif;
+    --sizeFont-titlePrimary: 5rem;
+    --sizeFont-titleSecondary: 3rem;
+    --sizeFont-titleThird: 2rem;
+    --sizeFont-text: 1rem ;   
+}
+
+/* ---scrollbar--- */
+
+::-webkit-scrollbar {
+    width: 8px;     /* Tamaño del scroll en vertical */
+    height: 8px;    /* Tamaño del scroll en horizontal */
+    background: #00000000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #00000098;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #000000cc;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background-color: #000000cc;
+}
+
+/* -----text----- */
+
+
+.titlePrimary{
+    font-family: var(--font-titles);
+    font-size: var(--sizeFont-titlePrimary);
+}
+
+.titleSecondary{
+    font-family: var(--font-titles);
+    font-size: var(--sizeFont-titleSecondary);
+}
+
+.titleThird{
+    font-family: var(--font-titles);
+    font-size: var(--sizeFont-titleThirth);
+}
+
+.subtitles{
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+.text{
+    font-family: var(--font-body);
+    font-size: var(--sizeFont-text);
+}
+
+/* structure default */
+
+body{
+    color: #ffffff;
+    background: black;
+}
+
+.link{
+    color: #ffffff;
+    text-decoration: none;
+}

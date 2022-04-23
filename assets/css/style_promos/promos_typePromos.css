@@ -1,0 +1,24 @@
+.typePromos{
+    padding: 2rem 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Cont_titleTypePromos{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ViewtypePromos{
+    color: var(--colorPrimary);
+}
+
+.titleTypePromos{
+    color: var(--colorBaseMedium);
+    font-size: 2.375rem;
+    margin-bottom: 1rem;
+}

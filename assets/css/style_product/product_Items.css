@@ -1,0 +1,24 @@
+.product{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgProduct .imgProduct-default{
+    width: 100%;
+    border-radius: 5%;
+    padding-bottom: 0.3rem;
+}
+
+.priceProduct{
+    font-weight: 700;
+    font-size: 1.3rem;
+    padding: 0.3rem 0;
+}
+
+.linkProduct{
+    color: var(--colorPrimary);
+    font-weight: 700;
+    font-size: 0.8rem;
+}
