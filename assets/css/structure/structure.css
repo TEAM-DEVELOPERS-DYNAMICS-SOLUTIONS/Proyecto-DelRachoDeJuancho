@@ -61,6 +61,7 @@
 body{
     color: #ffffff;
     background: black;
+    width: 100vw;
 }
 
 .link{

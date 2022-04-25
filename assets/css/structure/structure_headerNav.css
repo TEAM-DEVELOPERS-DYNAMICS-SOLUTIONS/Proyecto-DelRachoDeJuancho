@@ -25,3 +25,17 @@
     text-transform: uppercase;
     transition: font-size cubic-bezier(0.075, 0.82, 0.165, 1) 400ms;
 }
+
+
+/* Medias */
+@media screen /* phones */
+    and (max-device-width:425px){
+        .navigator__Banner{
+            height: 10%;
+            z-index: 1;
+        }
+
+        .Cont__navigatorBanner #linkBanner{
+            font-size: 0.6rem;
+        }
+    }
