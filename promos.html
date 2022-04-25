@@ -6,19 +6,21 @@
 -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="shortcut icon" href="assets/img/logos/BullDelRanchoDeJuancho.png" type="image/x-icon">
+
     <link rel="styleSheet" href="assets/css/reset.css" type="text/css">
     <link rel="styleSheet" href="assets/css/normalize.css" type="text/css">
     <link rel="styleSheet" href="assets/css/structure/structure.css" type="text/css">
     <link rel="styleSheet" href="assets/css/structure/structure_header.css" type="text/css">
     <link rel="styleSheet" href="assets/css/structure/structure_headerNav.css" type="text/css">
     <link rel="styleSheet" href="assets/css/structure/structure_footer.css" type="text/css">
+    <link rel="styleSheet" href="assets/css/style_promos/promos_items.css" type="text/css">
     <link rel="styleSheet" href="assets/css/style_promos/promos_slider.css" type="text/css">
     <link rel="styleSheet" href="assets/css/style_promos/promos_typePromos.css" type="text/css">
 
@@ -37,7 +39,7 @@
         </figure>
         <figure class="Cont__iconBanner">
             <img src="assets/img/icons/Profile-iconWhite.png" alt="boton de carrito de compra" class="icon_Banner profile">
-            <img src="assets/img/icons/shoppingCar-iconWhite.png" alt="boton de barra de busqueda" class="icon_Banner shopingCar">
+            <img src="assets/img/icons/ShoppingCar-iconWhite.png" alt="boton de barra de busqueda" class="icon_Banner shopingCar">
         </figure>
         <nav class="navigator__Banner">
             <ul class="Cont__navigatorBanner">
@@ -48,16 +50,11 @@
                     <a href="promos.html" class="link" id="linkBanner">Promos</a>
                 </li>
                 <li class="itemsNavigatorBanner">
-                    <a href="#" class="link" id="linkBanner">Registrate</a>
+                    <a href="register.html" class="link" id="linkBanner">Registrate</a>
                 </li>
             </ul>
         </nav>
     </header>
-
-    <div class="titleSlider">
-        <h2 class="titleThird">Promos del día</h2>
-    </div>
-
     <section class="Cont_sliderProm">
         <div class="Cont_cardSliders">
             <div class="card_sliderProm" id="prom1">
@@ -88,7 +85,6 @@
     </section>
 
     <section class="Cont_typePromos">
-
         <div class="typePromos" id="">
             <div class="Cont_titleTypePromos">
                 <h2 class="titleTypePromos">Hamburguesas</h2>
@@ -98,24 +94,34 @@
             </div>
 
             <div class="promos">
-                <figure class="imgPromos">
-                    <img class="imgPromos-default HB1"  src="assets/img/products/277321420_656177069013448_675782660411976409_n.jpg" alt="">
-                </figure>
-                <h3 class="titlePromos">productoXYZ</h3>
-                <span class="pricePromos">$60.00</span>
-                <a href="" class="link">
-                    <span class="linkPromos">Ver producto</span>
+                <a href="product.html#hamburgesas" class="link">
+                    <figure class="imgPromos">
+                        <img class="imgPromos-default HB1"  src="assets/img/promo/rfqr-204.jpg" alt="">
+                    </figure>
                 </a>
             </div>
 
             <div class="promos">
-                <figure class="imgPromos">
-                    <img class="imgPromos-default HB1"  src="assets/img/products/277321420_656177069013448_675782660411976409_n.jpg" alt="">
-                </figure>
-                <h3 class="titlePromos">productoXYZ</h3>
-                <span class="pricePromos">$60.00</span>
-                <a href="" class="link">
-                    <span class="linkPromos">Ver producto</span>
+                <a href="product.html#salchipapas" class="link">
+                    <figure class="imgPromos">
+                        <img class="imgPromos-default HB1"  src="assets/img/promo/277964735_4996450293724088_5628841021885476080_n.jpg" alt="">
+                    </figure>
+                </a>
+            </div>
+
+            <div class="promos">
+                <a href="product.html#pizzas" class="link">
+                    <figure class="imgPromos">
+                        <img class="imgPromos-default HB1"  src="assets/img/promo/asda.jpeg" alt="">
+                    </figure>
+                </a>
+            </div>
+
+            <div class="promos">
+                <a href="product.html#perros" class="link">
+                    <figure class="imgPromos">
+                        <img class="imgPromos-default HB1"  src="assets/img/promo/278399070_713042166703557_3184709586075040222_n.jpg" alt="">
+                    </figure>
                 </a>
             </div>
         </div>
@@ -133,6 +139,7 @@
                 <img src="assets/img/icons/whatsapp-iconWhite.png" alt="logo Whatsapp" class="iconsSocial">
             </div>
         </div>
+
         <div class="Cont__Contact">
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1988.3966867048587!2d-74.19388201464605!3d4.630919909776192!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9ddffe450977%3A0x2592143488c588e!2sSupermercado%20Metro%20Bosa%20Atalayas!5e0!3m2!1ses!2sco!4v1649878732428!5m2!1ses!2sco" width="60%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="iframe__contact"></iframe>
             <div class="Cont_contactUsContact">

@@ -1,17 +1,9 @@
-/* 
-    Proyect- Delivery Store DEL RANCHO DE JUANCHO
-    TDDS - Team Developer Dynamic Solutions
-    ---------------------------------------------
-    Document - CSS Styles
-*/
-
 .banner{
     background: url("../../img/banners/pizza-2810589_1920.jpg") no-repeat center;
     display: flex;
     flex-flow: row wrap;
     height: 60vh;
-    justify-content: space-between;
-    
+    justify-content: space-between;   
 }
 
 .Cont_logoStoreBanner{
@@ -29,7 +21,6 @@
     justify-content: flex-end;
     height: 50%;
     margin: 2.5rem;
-
 }
 
 .icon_Banner{

@@ -1,23 +1,31 @@
-.product{
+.promos{
     align-items: center;
+    border-radius: 1.5rem;
     display: flex;
-    flex-direction: column;
-    width: 15%;
+    height: 60%;
+    flex-flow: column wrap;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    width: 48%;
 }
 
-.imgProduct .imgProduct-default{
-    border-radius: 5%;
+.imgPromos{
+    height: 15rem;
+}
+
+.imgPromos .imgPromos-default{
+    
     padding-bottom: 0.3rem;
     width: 100%;
 }
 
-.priceProduct{
+.pricePromos{
     font-size: 1.3rem;
     font-weight: 700;
     padding: 0.3rem 0;
 }
 
-.linkProduct{
+.linkPromos{
     color: var(--colorPrimary);
     font-size: 0.8rem;
     font-weight: 700;

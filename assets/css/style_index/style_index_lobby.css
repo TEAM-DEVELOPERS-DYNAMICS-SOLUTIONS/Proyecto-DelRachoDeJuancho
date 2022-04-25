@@ -15,8 +15,8 @@
 }
 
 .text__lobby{
+    padding: 8%;
     position: absolute;
     top: 80%;
-    padding: 8%;
     z-index: 1;
 }

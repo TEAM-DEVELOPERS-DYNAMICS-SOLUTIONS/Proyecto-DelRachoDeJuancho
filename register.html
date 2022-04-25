@@ -1,0 +1,163 @@
+<!-- 
+    Proyect- Delivery Store DEL RANCHO DE JUANCHO
+    TDDS - Team Developer Dynamic Solutions
+    ---------------------------------------------
+    Document - html index
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="assets/img/logos/BullDelRanchoDeJuancho.png" type="image/x-icon">
+
+    <link rel="styleSheet" href="assets/css/reset.css" type="text/css">
+    <link rel="styleSheet" href="assets/css/normalize.css" type="text/css">
+    <link rel="styleSheet" href="assets/css/structure/structure.css" type="text/css">
+    <link rel="styleSheet" href="assets/css/structure/structure_footer.css" type="text/css">
+    <link rel="styleSheet" href="assets/css/style_register/register.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/style_register/register_banner.css" type="text/css">
+    <link rel="styleSheet" href="assets/css/style_register/register_form.css" type="text/css">
+    <link rel="styleSheet" href="assets/css/style_register/register_infoRegister.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/style_register/register_nav.css" type="text/css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;700&family=Rye&display=swap" rel="stylesheet">
+    
+    <title>Del Rancho de Juancho</title>
+</head>
+<body>
+    
+    <header class="banner">  
+        <nav class="navigator__Banner">
+            <ul class="Cont__navigatorBanner">
+                <li class="itemsNavigatorBanner">
+                    <a href="product.html" class="link" id="linkBanner">Menús</a>
+                </li>
+                <li class="itemsNavigatorBanner">                            
+                    <a href="promos.html" class="link" id="linkBanner">Promos</a>
+                </li>
+                <li class="itemsNavigatorBanner">
+                    <a href="register.html" class="link" id="linkBanner">Registrate</a>
+                </li>
+            </ul>
+            <img src="assets/img/icons/Profile-iconWhite.png" alt="boton de carrito de compra" class="icon_Banner profile">
+            <img src="assets/img/icons/shoppingCar-iconWhite.png" alt="boton de barra de busqueda" class="icon_Banner shopingCar">            
+        </nav>
+
+    </header>
+
+    <section class="main">
+        <section class="infoRegister">
+            <figure class="Cont_logoStoreBanner">
+                <a href="index.html" class="link">
+                    <img src="assets/img/logos/LogotipoDelRanchoDeJuancho-Blanco.png" alt="logo Del Rancho de Juancho" class="logoStore__Banner">
+                </a>
+            </figure>
+
+            <div class="Cont_InfoRegister">
+                <h2 class="titleSecondary titleInfoRegister">Uneté! Disfruta del mejor sabor de RANCHO</h2>
+                <p class="text parragraphInfoRegister">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga laboriosam quo nostrum corrupti sunt rem, ratione magnam illum hic blanditiis eveniet nam et? Quod molestiae architecto eaque possimus ea ex.<p>
+            </div>
+        </section> 
+
+        <section class="formRegister">
+            <fieldset class="Cont_formRegister">
+                <form class="form" action="" method="get">
+                    <div id="names">
+                        <div class="Cont_input inputName">
+                            <label for="name" class="titleInput">Nombre</label>
+                            <input type="text" class="defaultInput" id="name" placeholder="Nombre" name="name">
+                        </div>
+                        <div class="Cont_input inputLastName">
+                            <label for="lastName" class="titleInput">Apellido</label>
+                            <input type="text" class="defaultInput" id="lastName" placeholder="Apellido" name="lastName">
+                        </div>
+                    </div>
+                    
+                    <div class="Cont_input inputPhone">
+                        <label for="phone" class="titleInput">Numero de Telefono</label>
+                        <input type="number" class="defaultInput" id="phone" placeholder="3103103030" name="phone">
+                    </div>
+                    
+                    <div id="identification">
+                        <div class="Cont_input">
+                            <label for="" class="titleInput">Identificación</label>
+                            <Select class="typeIdentification defaultInput" id="select" name="name">
+                                <option value="CC">CC</option>
+                                <option value="CE">CE</option>
+                                <option value="TI">TI</option>
+                            </Select>
+                        </div>
+                        <div class="Cont_input inputNumberIdentification">
+                            <label for="" class="titleInput">Numero de identificación</label>
+                            <input type="text" class="defaultInput" id="numberIdentification" placeholder="1001010010">
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="Cont_input inputEmail">
+                        <label for="email" class="titleInput">Correo</label>
+                        <input type="email" class="defaultInput" id="email" name="email" placeholder="email@dominio.com">
+                    </div>
+
+                    <div id="passwords">
+                        <div class="Cont_input inputPassword1">
+                            <label for="password1" class="titleInput">Contraseña</label>
+                            <input type="password" class="defaultInput" id="password1" name="pass1" placeholder="contraseña">
+                        </div>
+                        <div class="Cont_input inputPassword1">
+                            <label for="password2" class="titleInput">Confirma tu contraseña</label>
+                            <input type="password" class="defaultInput" id="password2" name="pass2" placeholder="contraseña">
+                        </div>
+                    </div>                    
+
+                    <div class="inputTerms">
+                        <input type="checkbox" checked class="defaultInput" id="terms" name="terms">
+                        <label for="terms" class="titleInput">Acepto los Terminos y Condiciones</label>
+                    </div>
+                    
+                    <input type="submit" value="Registrame" class="defaultInput" id="buttomSubmit">
+                </form>
+            </fieldset>
+        </section>
+    </section>
+    <footer class="Cont__Footer">
+        <div class="Cont__social">
+            <div class="Cont_logoStoreFooter">
+                <img src="assets/img/logos/LogotipoDelRanchoDeJuancho-Blanco.png" alt="logo Del Rancho de Juancho" class="logoStore__Footer">
+            </div>
+            <div class="Cont__socialFooter">
+                <img src="assets/img/icons/facebook-iconWhite.png" alt="logo facebook" class="iconsSocial">
+                <img src="assets/img/icons/instagram-iconWhite.png" alt="logo instagram" class="iconsSocial">
+                <img src="assets/img/icons/whatsapp-iconWhite.png" alt="logo Whatsapp" class="iconsSocial">
+            </div>
+        </div>
+        <div class="Cont__Contact">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1988.3966867048587!2d-74.19388201464605!3d4.630919909776192!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9ddffe450977%3A0x2592143488c588e!2sSupermercado%20Metro%20Bosa%20Atalayas!5e0!3m2!1ses!2sco!4v1649878732428!5m2!1ses!2sco" width="60%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="iframe__contact"></iframe>
+            <div class="Cont_contactUsContact">
+                <h3 class="titleThird">Contactanos</h3>
+                <div class="text_contactUS">
+                    <p class="text phone"> Telefono: <a href="" class="link">+573003003030</a></p>
+                    <p class="text address">Dirección: Cra0 N° 0 - 0 null</p>
+                </div>
+            </div>
+            <div class="Cont_ScheduleContact">
+                <h3 class="titleThird">Horarios</h3>
+                <div class="text_Schedule">
+                    <p class="text"> Lunes a Viernes: 13:00h - 23:00h</p>
+                    <p class="text"> Sabados, Domingos y Festivos: 12:00h - 00:00h </p>
+                </div>
+            </div>
+        </div>
+        <div class="Cont__developers"><span class="text">Desarrollado por <a href="" class="link">@TDDS</a></span></div>
+    </footer>
+
+    <script src="assets/js/.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+.formRegister{
+    align-items: center;
+    display: flex;
+    flex-flow: Column wrap;
+    justify-content: center;
+    position: relative;
+    width: 60%;
+}
+
+.Cont_formRegister{
+    width: calc(100% - 10rem);
+}
+
+.Cont_input{
+    display: flex;
+    flex-flow: column wrap;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.titleInput{
+    width: fit-content;
+    margin-bottom: 0.3rem;
+}
+
+.defaultInput{
+    height: 2rem;
+    background: none;
+    border:none;
+    border-bottom: #FF5733 solid 2px;
+    color: #FF5733;
+    outline: none;
+}
+
+.Cont_input select{
+    appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+#names, #passwords, #identification{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between ;
+}
+
+.inputName , .inputLastName , .inputPassword1, .inputPassword2{
+    width: 49%;
+}
+
+.TypeIdentification{
+    width: 9%;
+}
+
+.inputNumberIdentification{
+    width: 86%;
+}
+
+.inputTerms{
+    align-items: center;
+    display: flex;
+}
+
+#buttomSubmit{
+    padding: 2rem;
+}

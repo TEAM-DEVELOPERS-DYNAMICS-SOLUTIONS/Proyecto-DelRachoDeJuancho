@@ -1,18 +1,11 @@
-/* 
-    Proyect- Delivery Store DEL RANCHO DE JUANCHO
-    TDDS - Team Developer Dynamic Solutions
-    ---------------------------------------------
-    Document - CSS Styles
-*/
-
 :root {
     /* fonts */
-    --font-titles: 'Rye', cursive;
     --font-body: 'Cormorant Garamond', serif;
+    --font-titles: 'Rye', cursive;
+    --sizeFont-text: 1rem ;   
     --sizeFont-titlePrimary: 5rem;
     --sizeFont-titleSecondary: 3rem;
     --sizeFont-titleThird: 2rem;
-    --sizeFont-text: 1rem ;   
 }
 
 /* ---scrollbar--- */
@@ -38,25 +31,24 @@
 
 /* -----text----- */
 
-
 .titlePrimary{
-    font-family: var(--font-titles);
     font-size: var(--sizeFont-titlePrimary);
+    font-family: var(--font-titles);
 }
 
 .titleSecondary{
-    font-family: var(--font-titles);
     font-size: var(--sizeFont-titleSecondary);
+    font-family: var(--font-titles);
 }
 
 .titleThird{
-    font-family: var(--font-titles);
     font-size: var(--sizeFont-titleThirth);
+    font-family: var(--font-titles);
 }
 
 .subtitles{
-    font-style: italic;
     font-size: 1.2rem;
+    font-style: italic;
 }
 
 .text{

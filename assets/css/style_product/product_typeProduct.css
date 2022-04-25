@@ -1,17 +1,15 @@
 .typeProduct{
-    padding: 2rem 10rem;
-
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 2rem 10rem;
 }
 
 .Cont_titleTypeProduct{
-    width: 100%;
-
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
 .ViewtypeProduct{
@@ -20,7 +18,7 @@
 
 .titleTypeProduct{
     color: var(--colorBaseMedium);
-    font-size: 1.5rem;
     font-family: var(--font-titles);
+    font-size: 1.5rem;
     margin-bottom: 1rem;
 }
