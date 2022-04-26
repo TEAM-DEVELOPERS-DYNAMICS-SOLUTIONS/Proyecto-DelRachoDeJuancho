@@ -32,11 +32,10 @@
     outline: none;
 }
 
-.Cont_input select{
-    appearance: none;
-	-webkit-appearance: none;
-	-moz-appearance: none;
+.defaultInput::placeholder{
+    color: #ff583347;
 }
+
 #names, #passwords, #identification{
     display: flex;
     flex-flow: row wrap;
@@ -45,6 +44,12 @@
 
 .inputName , .inputLastName , .inputPassword1, .inputPassword2{
     width: 49%;
+}
+
+.Cont_input select, #phone::-webkit-inner-spin-button , #phone::-webkit-outer-spin-button{
+    appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
 }
 
 .selectTypeIdentification{
