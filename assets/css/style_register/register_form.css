@@ -47,8 +47,9 @@
     width: 49%;
 }
 
-.TypeIdentification{
-    width: 9%;
+.typeIdentification{
+    width: 86%;
+    margin-top: 0.25rem;
 }
 
 .inputNumberIdentification{
