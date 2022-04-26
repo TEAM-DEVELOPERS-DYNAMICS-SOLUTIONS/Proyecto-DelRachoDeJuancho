@@ -47,13 +47,17 @@
     width: 49%;
 }
 
+.selectTypeIdentification{
+    width: 12%;
+}
+
 .typeIdentification{
-    width: 86%;
     margin-top: 0.25rem;
 }
 
 .inputNumberIdentification{
     width: 86%;
+    
 }
 
 .inputTerms{
